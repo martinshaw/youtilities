@@ -1,0 +1,42 @@
+"Location","Location_Category","ID","Type","OSGB_Eastings","OSGB_Northings","WGS84_Longitude","WGS84_Latitude"
+"Bredbury","Rail station","SGR087","BLUC",392754,391827,-2.110502,53.423202
+"Marple","Rail station","SGR107","BLUC",396284,389355,-2.057357,53.401026
+"Rose Hill Marple","Rail station","SGR108","BLUC",395010,388800,-2.076505,53.396022
+"Hazel Grove","Rail station","SGR095","BLUC",391960,386766,-2.122319,53.377697
+"Heald Green","Rail station","SGR109","BLUC",384358,385885,-2.23654,53.369608
+"Altrincham","Rail station","SJR493","BLUC",376987,387906,-2.347474,53.387505
+"Bromley Cross","Rail station","WAR018","BLUC",372902,413094,-2.411069,53.6137
+"Lostock","Rail station","WAR005","BLUC",367383,408614,-2.494026,53.573125
+"Bolton","Rail station","WAR055","BLUC",371944,408633,-2.425152,53.573558
+"Reddish North","Rail station","SGR117","BLUC",389701,394765,-2.156542,53.449562
+"Heaton Chapel","Rail station","SGR122","BLUC",388203,392107,-2.178995,53.425638
+"Stockport","Bus station","STBS","BLUC",389244,390247,-2.163262,53.408943
+"Stockport","Rail station","SGR097","BLUC",389207,389862,-2.163803,53.40548
+"Crumpsall","Metrolink stop","NBR123","BLUC",384113,402322,-2.241063,53.517345
+"Cheadle Hulme","Rail station","SGR096","BLUC",387604,386621,-2.187785,53.376314
+"Radcliffe","Metrolink stop","NCR076","BLUC",378835,407345,-2.321003,53.562306
+"Whitefield","Metrolink stop","NCR024","BLUC",380528,406104,-2.295359,53.551218
+"Prestwich","Metrolink stop","NCR125","BLUC",381388,404125,-2.282274,53.533461
+"Bury","Metrolink stop","NCR313","BLUC",380428,410529,-2.297148,53.590986
+"Heaton Park","Metrolink stop","NCR128","BLUC",382404,403774,-2.266924,53.530344
+"Brooklands","Metrolink stop","SJR040","BLUC",378427,391184,-2.326043,53.417028
+"Sale","Metrolink stop","SJR039","BLUC",378897,391988,-2.319035,53.424277
+"Stretford","Metrolink stop","SJR038","BLUC",379903,394380,-2.30404,53.445814
+"Romiley","Rail station","SGR083","BLUC",394153,390820,-2.08943,53.414168
+"Wigan Wallgate","Rail station","WKR014","BLUC",358070,405564,-2.634241,53.545043
+"Horwich Parkway","Rail station","WAR477","BLUC",364377,409181,-2.539483,53.578022
+"Bolton Moor Lane","Bus station","BNBS","BLUC",371404,409057,-2.433345,53.577339
+"Leigh","Bus station","LHBS","BLUC",365750,399997,-2.517742,53.495568
+"Appley Bridge","Rail station","ZNR137","BLUC",352452,409378,-2.719608,53.578842
+"Hindley","Rail station","WKR015","BLUC",361923,405148,-2.576045,53.541604
+"Gathurst","Rail station","WKR012","BLUC",354163,407196,-2.693444,53.559386
+"Atherton","Rail station","WKR069","BLUC",368356,403701,-2.478829,53.529024
+"Handforth","Rail station","ZLR090","BLUC",385879,383319,-2.213573,53.346589
+"Old Trafford","Metrolink stop","SJR052","BLUC",381170,395546,-2.285047,53.456347
+"Navigation Road","Metrolink stop","SJR033","BLUC",377262,388784,-2.343402,53.395409
+"Timperley","Metrolink stop","SJR034","BLUC",377609,389796,-2.338256,53.40452
+"Dane Road","Metrolink stop","SJR037","BLUC",379412,392657,-2.311326,53.43031
+"St Werburgh's Road","Metrolink stop","SBR498","BLUC",382465,393580,-2.265428,53.438717
+"Deansgate - Castlefield","Metrolink stop","SBR312","BLUC",383431,397585,-2.251098,53.474747
+"Bramhall","Rail station","SGR089","BLUC",389248,384874,-2.163021,53.360648
+"Merseyway","Car park","","Locker Non-BLUC",389485,390447,-2.15964,53.410744
