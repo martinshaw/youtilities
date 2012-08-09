@@ -1,6 +1,15 @@
+
+
+
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Gudea:400,700|Asap:400,700|Actor|Ruda:400,700);
 
 
+
+*{
+	font-family: 'Gudea', sans-serif;}
 
 html,body{border-style:none;padding:0;margin:0;overflow:hidden;}
 
@@ -9,6 +18,18 @@ background-color: red;
 }
 
 #topBar{
+background: rgb(165,255,0);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E1ZmYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2UxZmYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  rgb(165,255,0) 0%, rgb(225,255,0) 99%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(165,255,0)), color-stop(99%,rgb(225,255,0)));
+background: -webkit-linear-gradient(top,  rgb(165,255,0) 0%,rgb(225,255,0) 99%);
+background: -o-linear-gradient(top,  rgb(165,255,0) 0%,rgb(225,255,0) 99%);
+background: -ms-linear-gradient(top,  rgb(165,255,0) 0%,rgb(225,255,0) 99%);
+background: linear-gradient(to bottom,  rgb(165,255,0) 0%,rgb(225,255,0) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5ff00', endColorstr='#e1ff00',GradientType=0 );
+
+
+
 	padding:0;margin:0;
 	background-color:black;
 }
@@ -19,6 +40,9 @@ background-color: red;
 }
 
 #topBar td table{
+	border-bottom-style:solid;
+	border-bottom-color:#ccc;
+	border-bottom-width:1px;
 	width:100%;
 	height:20px;
 }
@@ -45,4 +69,21 @@ background-color: red;
 	padding-right:25px;
 	width:50%;
 	height:100%;
+}
+
+#topBar td table tr #rightTopBar *{
+	vertical-align:middle;
+}
+
+button{
+	
+}
+
+#bubbleTitle,#bubbleArticle{
+	font-family: 'Gudea', sans-serif;
+}
+
+#searchBox{
+	border-style:solid;
+	border-width:1px;
 }

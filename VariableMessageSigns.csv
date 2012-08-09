@@ -1,0 +1,107 @@
+"VMSREF","DISTRICTOR","SCN","LOCATION","MANUFACTUR","NUMBEROFDI","EASTING","NORTHING","COMMENT","longitude","latitude"
+"1","Manchester","S1a","Great Ducie St| N of New Bridge St.","Dambach",3,383763,399186,"",-2.24619,53.4891
+"2","Manchester","S2","Trinity Way| W. of Great Ducie St.","Siemens",2,383719,399108,"",-2.24685,53.4884
+"3","Manchester","S3","New Bridge St| E. of Great Ducie St.","Siemens",2,383858,399121,"",-2.24476,53.4885
+"4","Manchester","S4","New Bridge St| E of Great Ducie St.","Siemens",2,383909,399165,"",-2.24399,53.4889
+"5","Manchester","S5","New Bridge St| W. of Cheetham Hill Rd.","Siemens",2,384003,399182,"",-2.24257,53.4891
+"6","Manchester","S6","Cheetham Hill Rd| N. of Bridge St.","Siemens",2,384075,399282,"",-2.24149,53.49
+"9","Manchester","S9","Miller St| W. of Danzic St.","Siemens",2,384242,398991,"",-2.23896,53.4874
+"10","Manchester","S10","Miller St.| E of Dantzic St.","Siemens",2,384292,398944,"",-2.23821,53.487
+"11","Manchester","S11","Rochdale Rd| S. of Cable St.","Siemens",2,384478,398886,"",-2.2354,53.4864
+"12","Manchester","S12","Miller St| W. of Rochdale Rd.","Siemens",2,384389,398917,"",-2.23674,53.4867
+"13","Manchester","S13","Swan St.| S. of Rochdale Rd.","Siemens",2,384476,398821,"",-2.23543,53.4859
+"14","Manchester","S14","Oldham Rd| W. of Cornell St.","Siemens",2,384758,398774,"",-2.23117,53.4855
+"15","Manchester","S15","Great Ancoats St| S. of Lever St.","Siemens",2,384771,398604,"",-2.23097,53.4839
+"16","Manchester","S16","Great Ancoats St.| N. of Dean St.","Siemens",2,384819,398525,"",-2.23024,53.4832
+"17","Manchester","S17","Great Ancoats St.| E of Laystall St.","Siemens",2,385062,398331,"",-2.22657,53.4815
+"18","Manchester","S18","Great Ancoats St.| N of Store St.","Siemens",2,385149,398280,"",-2.22526,53.481
+"19","Manchester","S19","Ashton Old Rd| East of Chancellor Lane","Siemens",2,385754,397623,"",-2.21611,53.4751
+"20","Manchester","S20","Ashton Old Rd| W. of Chancellor Lane","Siemens",2,385669,397638,"",-2.21739,53.4753
+"21","Manchester","S21","Downing St| S. of Mancunian Way","Siemens",2,384858,397400,"",-2.2296,53.4731
+"22","Manchester","S22","Brook St.| N. of Grosvenor St.","Siemens",2,384529,397184,"",-2.23455,53.4712
+"23","Manchester","S23","Cambridge St.| S. of Mancunian Way","Siemens",3,384066,397041,"",-2.24152,53.4699
+"24","Manchester","S24","Princess Rd.| S. of Mancunian Way.","Siemens",3,383701,397015,"",-2.24701,53.4696
+"25","Manchester","S25","Chester Rd| W. of Mancunian Way","Siemens",3,382849,397217,"",-2.25986,53.4714
+"26","Manchester","S26","Egerton St.| N. of Mancunian Way","Siemens",2,382837,397446,"",-2.26005,53.4735
+"27","Manchester","S27","Regent Rd.| W. of Dawson St.","Siemens",2,382619,397705,"",-2.26335,53.4758
+"28","Manchester","S28","Water St.| S. of Liverpool Rd.","Siemens",2,382869,397847,"",-2.25959,53.4771
+"30","Manchester","S30","Water St.| S. of Quay St.","Siemens",2,383065,398065,"",-2.25665,53.479
+"31","Manchester","S31","New Quay St| N. of Water St.","Siemens",2,383134,398220,"",-2.25562,53.4804
+"32","Manchester","S32","Chapel St.| W. of Trinity Way","Siemens",3,382965,398552,"",-2.25818,53.4834
+"33","Manchester","S33","Trinity Way| S. of Chapel St.","Siemens",2,382979,398478,"",-2.25797,53.4827
+"34","Manchester","S34","Trinity Way| N. of Chapel St.","Siemens",2,383029,398594,"",-2.25722,53.4838
+"35","Manchester","S50","Blackfriars Rd.| W. of Trinity Way","Siemens",2,383238,398971,"",-2.25409,53.4872
+"36","Manchester","S36","Trinity Way| S. of Blackfriars Rd.","Siemens",2,383185,398843,"",-2.25488,53.486
+"37","Manchester","S37","Trinity Way| N. of Blackfriars Road.","Siemens",2,383317,398950,"",-2.2529,53.487
+"38","Manchester","S38","Rochdale Rd.| E. of Ludgate St.","Siemens",2,384537,398962,"",-2.23452,53.4871
+"40","Manchester","S40","Victoria Bridge St.| E. of Chapel St.","Siemens",3,383738,398734,"",-2.24654,53.4851
+"42","Manchester","S42","Shudehill| E. of Thomas St.","Siemens",2,384323,398750,"",-2.23773,53.4852
+"44","Manchester","S44","Newton St.| S. of Faraday St.","Siemens",2,384682,398414,"",-2.2323,53.4822
+"45","Manchester","S45","Newton St.| S. of Hilton St.","Siemens",2,384631,398354,"",-2.23307,53.4817
+"46","Manchester","S46","Newton St.| S. of Dale St.","Siemens",2,384579,398286,"",-2.23385,53.4811
+"47","Manchester","S47","Ducie St| E. of Dale St.","Siemens",2,384753,398103,"",-2.23122,53.4794
+"48","Manchester","S48","Ducie St.| E. of London Rd.","Siemens",2,384673,398072,"",-2.23242,53.4791
+"50","Manchester","","Fairfield St| E. of London Rd.","",2,384818,397752,"",-2.23022,53.4763
+"51","Manchester","","London Rd.| N. of Mancunian Way","",2,384810,397627,"",-2.23034,53.4751
+"53","Manchester","S53","Oxford St.| S. of Whitworth St.","Siemens",2,384104,397530,"",-2.24097,53.4742
+"54","Manchester","S54","Gloucester St.| S. of Whitworth St. West.","Siemens",2,383860,397439,"",-2.24464,53.4734
+"55","Manchester","S57","Albion Street| N. of Trafford St.","Siemens",2,383631,397583,"",-2.2481,53.4747
+"57","Manchester","S55","Chester Rd.| S. of Whitworth St. W.","Siemens",2,383341,397521,"",-2.25246,53.4741
+"59","Manchester","S59","Bridge St. West| W. of Gartside St.","Siemens",2,383332,398360,"",-2.25264,53.4817
+"60","Manchester","S60","Deansgate| S. of Cateaton Street","Siemens",2,383818,398670,"",-2.24534,53.4845
+"61","Manchester","S29","Shudehill| W. of Mayes St.","Siemens",2,384386,398803,"",-2.23678,53.4857
+"62","Manchester","S62","Fairfield St.| E. od Baring St.","VMSL",2,385082,397714,"",-2.22624,53.4759
+"64","Manchester","S64","Whitworth St.| E. of Chorlton St.","Dambach",3,384569,397806,"",-2.23398,53.4767
+"65","Manchester","S51","Miller St.| E. of Corporation St.","Siemens",2,384195,398997,"",-2.23967,53.4874
+"66","Manchester","S66","Ducie St.| E. of Pigeon St.","VMSL",2,384999,398225,"",-2.22752,53.4805
+"67","Manchester","S67","Cambridge St.| N. of Mancunian Way.","Dambach",3,383966,397229,"",-2.24303,53.4715
+"68","Manchester","S68","Whitworth St.| W. of Cobourg St.","Dambach",4,384554,397790,"",-2.2342,53.4766
+"69","Manchester","S69","Gt. Bridgewater St.| E. of Lower Moseley St.","Dambach",2,383798,397595,"",-2.24558,53.4748
+"70","Manchester","S1","Sackville St.| S. of Charles St.","Siemens",3,384520,397533,"",-2.2347,53.4743
+"71","Manchester","S71","Sackville St.| S. of Whitworth St.","Dambach",4,384446,397729,"",-2.23583,53.476
+"73","Manchester","S35","Victoria St.| S. of New Bridge St.","Siemens",3,383852,398986,"",-2.24484,53.4873
+"1","Trafford","Traf1-1","Trafford Rd.| S. of Colgate Lane","Dambach",0,381272,396678,"",-2.28358,53.4665
+"2","Trafford","Traf2-1","Bridgewater Way| S. of Chester Rd.","Dambach",0,382143,396745,"",-2.27047,53.4671
+"3","Trafford","Traf3-1","Stretford Rd junction with Chester Rd.","Dambach",0,381926,396241,"",-2.27371,53.4626
+"4","Trafford","Traf4-1","Seymour Grove| S. of Humphrey Rd.","Dambach",0,381770,396029,"",-2.27604,53.4607
+"5","Trafford","Traf5-1","Chester Rd| N. of Derbyshire Lane","Dambach",0,379959,394801,"",-2.30324,53.4496
+"6","Trafford","Traf6-1","Davyhulme Rd E.| W. of Haig Rd.","Dambach",0,379851,394973,"",-2.30488,53.4511
+"7","Trafford","Traf7-1","Trafford Park Rd| opposite Waterside","Dambach",0,380526,396600,"",-2.29482,53.4658
+"8","Trafford","Traf8-1","Chester Rd| W. of Barrack St.","Dambach",0,382663,397110,"",-2.26266,53.4704
+"WDI_01","Wigan","WDI 01","Crow Orchard Rd| E. of S. Whitacre","Dambach",0,354372,410512,"",-2.69079,53.5892
+"WDI_02","Wigan","","Warrington Rd.| S. of Poolstock Lane.","Dambach",0,356824,402960,"",-2.65271,53.5215
+"WDI_03","Wigan","WDI 03","Castle Hill Rd| w. of Close St.","Dambach",0,362469,404920,"",-2.5678,53.5396
+"WDI_4","Wigan","WDI 04","Atherleigh Way| adjacent to street lamp no. 64.","Dambach",0,364664,399064,"",-2.53402,53.4871
+"WDI_05","Wigan","WDI 05","Sale Lane| S. of Wellington Drive","Dambach",0,371231,401916,"",-2.43532,53.5131
+"WDI_06","Wigan","WDI 06","Orrell Rd opposite Abraham Guest high school.","Dambach",0,354166,404802,"",-2.69306,53.5378
+"1","Stockport","SKGS0001","Tiviot Way","VMSL",0,389986,391379,"",-2.15215,53.4191
+"2","Stockport","SKGS0002","Crookilley Way","VMSL",0,390328,391096,"",-2.147,53.4166
+"3","Stockport","SKGS0003","Carrington Road","VMSL",0,390338,391019,"",-2.14684,53.4159
+"4","Stockport","SKGS0004","St. Mary's Way, N. of Mersey Street","VMSL",0,390289,390856,"",-2.14757,53.4144
+"25","Stockport","SKGS0005","Gt. Portwood St. W of St Mary's Way.","VMSL",0,390182,390967,"",-2.14919,53.4154
+"26","Stockport","SKGS0006","Gt. Portwood St., W. of Peter St.","VMSL",0,390098,390909,"",-2.15045,53.4149
+"5","Stockport","SKGS0024","Gt. Portwood St., E. of Marsland St","VMSL",0,390033,390888,"",-2.15143,53.4147
+"24","Stockport","SKGS0025","Gt. Portwood St., E. of Knightsbridge","VMSL",0,389839,390752,"",-2.15434,53.4135
+"6","Stockport","","Gt. Portwood St., E. of Knightsbridge","VMSL",0,389823,390719,"",-2.15458,53.4132
+"7","Stockport","SKGS0007","Knightsbridge, N. of Gt. Portwood St.","VMSL",0,389744,390785,"",-2.15577,53.4138
+"8","Stockport","SKGS0008","Corporation St., S. of Gt. Portwood St.","VMSL",0,389787,390649,"",-2.15512,53.4125
+"10","Stockport","SKGS0001","Lancashire Hill, S. of Penny Lane","VMSL",0,389502,390881,"",-2.15942,53.4146
+"12","Stockport","SKGS0011","Gt. Egerton St., E. of Woodman St.","VMSL",0,389350,390619,"",-2.16169,53.4123
+"11","Stockport","SKGS0012","Gt. Egerton St., E. of Port St.","VMSL",0,389265,390553,"",-2.16297,53.4117
+"13","Stockport","SKGS0013","Wellington Rd. North, N. of Leyland St.","VMSL",0,389160,390474,"",-2.16455,53.411
+"14","Stockport","SKGS0014","Travis Brow, E. of Hope St.","VMSL",0,388884,390438,"",-2.1687,53.4106
+"15","Stockport","SKGS0015","King St., N. of Chestergate","VMSL",0,388994,390292,"",-2.16704,53.4093
+"16","Stockport","SKGS0016","Chestergate, W. of King St.","VMSL",0,388966,390201,"",-2.16746,53.4085
+"17","Stockport","SKGS0017","Daw Bank, E. of Viaduct St.","VMSL",0,389174,390090,"",-2.16432,53.4075
+"18","Stockport","SKGS0018","Wellington Rd S., S. of Exchange St.","VMSL",0,389404,390150,"",-2.16087,53.408
+"23","Stockport","SKGS0009","New Bridge Lane, S. of Millgate.","VMSL",0,389840,390526,"",-2.15432,53.4114
+"9","Stockport","SKGS0023","New Bridge Lane","VMSL",0,389997,390498,"",-2.15196,53.4112
+"19","Stockport","SKGS0019","Wellington St., E. of Piccadilly","VMSL",0,389601,390170,"",-2.1579,53.4082
+"20","Stockport","SKGS0020","Piccadilly, S. of Norbury St.","VMSL",0,389622,390037,"",-2.15758,53.407
+"22","Stockport","SKGS0022","Spring Gardens, W. of St. Mar'ys Way","VMSL",0,390106,390203,"",-2.15031,53.4085
+"21","Stockport","SKGS0021","Wellington Rd. S., S. of Railway Rd.","VMSL",0,389501,389926,"",-2.1594,53.406
+"B","Wigan Town Centre","WIG B","Central Park Way, E. of River Way","VMSL",5,358623,405968,"",-2.62597,53.5487
+"C","Wigan Town Centre","WIG C","Northway,W. of Standishgate","VMSL",3,358350,406052,"",-2.6301,53.5494
+"G","Wigan Town Centre","WIG G","River Way, N. of Millgate","VMSL",3,358489,405632,"",-2.62795,53.5457
+"E","Wigan Town Centre","WIG E","Darlington St, W. of Harrogate St.","VMSL",3,358486,405315,"",-2.62795,53.5428
+"D","Wigan Town Centre","WIG D","Chapel Lane, N. of Queen St.","VMSL",3,358319,405216,"",-2.63046,53.5419
