@@ -1,0 +1,5 @@
+<option value="cycle_parks">Cycle Parks</option>
+<option value="toilets">Toilets</option>
+<option value="tourist_centres">Tourist Information </option>
+<option value="variable_signs">Road Matrix Signs</option>
+<option value="elec_charging_point">Electric Car Charging Point</option>

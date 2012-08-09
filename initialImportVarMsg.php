@@ -2,45 +2,27 @@
 	
 	
 	$con = mysql_connect("localhost","root","mondriot");
-if (!$con)
-  {
-  echo 'Could not connect: ' . mysql_error();
-  } 
-  if($con){
-  	
-	
 	
 	
 	mysql_select_db("map_points", $con);
 	
-	//BUS POINTS
-	mysql_query("CREATE TABLE toilets
+	 mysql_query("CREATE TABLE elec_charging_point_init
 		(
-		id MEDIUMINT NOT NULL AUTO_INCREMENT,
 		location varchar(255),
-		latitude varchar(255),
-		longitude varchar(255),
-		PRIMARY KEY (id)
+		postcode varchar(255)
 		)",$con);
 	 
 	 
-	 
-	$lines = file("publictoiletsv3.csv");
+	$lines = file("evcp.csv");
 	foreach ($lines as $line)
 	{
 		$info = explode(",",$line);
-		$location = str_replace("\"", "", str_replace("|", ",", $info[0]));
-		$longitude= str_replace("\"", "", $info[4]);
-		$latitude= str_replace("\"", "", $info[3]);
-		if($location!=="Location"){
-			mysql_query("INSERT INTO toilets (location, latitude, longitude) VALUES ('".$location."', '".$latitude."', '".$longitude."')");
-		}
+		$location = str_replace("|", ",", $info[0]);
+		echo $location;
+		$postcode= str_replace("|", ",", $info[1]);
+		echo $postcode;
+		mysql_query("INSERT INTO elec_charging_point_init VALUES ('$location', '$postcode');
 	}
 
-  }  
+
 ?>
-
-
-
-
-

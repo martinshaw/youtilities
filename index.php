@@ -1,10 +1,24 @@
 <!-- NOTEs:
 	Routes / Other Type of item / 
 -->
+<?php
+	if(isset($_get["console"])){
+		$console=$_get["console"];
+	}
+
+	if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "android") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "ipad") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "iphone") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "ipod") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "phone")|| strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "mobile")|| strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "blackberry")){
+		if(isset($_GET["forceDesktop"])){}else{
+			
+		}
+	}
+?>
+
+
+
 
 
 <!DOCTYPE html>
-<html>
+<html manifest="cache.manifest">
 	<head>
 		<title>youtilities</title>
 		<meta name="description" content="An extremely useful map, allowing you access to the location of your most urgently required facilities">
@@ -17,18 +31,12 @@
 		<script src="http://modernizr.com/downloads/modernizr.js"></script>
 		<link rel="stylesheet" type="text/css"  href="style.css"/>
 		<script src="sizeCompute.js"></script>
-
-<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, width=device-width" />
-
-
-
+		<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, width=device-width" />
 		<script src="jquery.cookies.2.2.0.min.js"></script>
-			<script src="http://jsconsole.com/remote.js?youtilities-debug"></script>
 		<?php include("inc.php"); ?>
 
-		  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 		  <script type="text/javascript" src="https://raw.github.com/HPNeo/gmaps/master/gmaps.js"></script>
-		<link href='http://hpneo.github.com/gmaps/prettify/prettify.css' rel='stylesheet' type='text/css' />
 
 		    <script type="text/javascript">
 			var map;
@@ -38,7 +46,7 @@
 			           map = new GMaps({
 				      div: '#map',
 				      lat: 53.479598999023438,
-				      lng: -2.2488100528717041,
+				      lng: -2.2488100528717041,  //VIEW OF LONDON
 					zoom: 6
 			      	   });
 
@@ -66,15 +74,28 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 
 
 
+				$("#searchBox").keyup(function(event){
+				    if(event.keyCode == 13){
+				        $("#searchActionBtn").click();
+				    }
+				});
+
 			    $("#searchActionBtn").click(function(){
-				
+					
+					if($("#searchBox").val().toLowerCase()=="noplace"){
+						var zAddr="Area 51, NV";
+					}else{
+						var zAddr=$('#searchBox').val();
+					}
+
+
 				GMaps.geocode({
-				  address: $('#searchBox').val(),
+				  address: zAddr,
 				  callback: function(results, status) {
 				    if (status == 'OK') {
 				      var latlng = results[0].geometry.location;
 				      map.setCenter(latlng.lat(), latlng.lng());
-					map.setZoom(13);
+					map.setZoom(14);
 				      map.addMarker({
 					lat: latlng.lat(),
 					lng: latlng.lng(),
@@ -87,6 +108,7 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 				  }
 				});	
 
+
 			    });
 
 
@@ -96,7 +118,7 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 		    </script>
 	
 	</head>
-	<body oncontextmenu="">
+	<body oncontextmenu="return false;">
 
 		<table id="outerContainer" cellpadding="0" cellspacing="0">
 			<tr id="topBar">
@@ -104,7 +126,7 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 					
 					<table>
 						<tr>
-							<td id="leftTopBar">youtilities</td>
+							<td id="leftTopBar" onclick="document.location='index.php';">youtilities</td>
 							<td id="rightTopBar">
 								
 								
@@ -113,11 +135,11 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 
 								
 								<button id="addPinBtn">Add new pin</button>
-								<div id="addPin"><?php include("ajax/addPin.php"); ?></div>
+								<div id="addPin"><?php include("ajax/addPoint.php"); ?></div>
 								<script>
 									$( "#addPin" ).dialog({
 					height: 400,
-					width: 380,
+					width: 390,
 					modal: true,
 					autoOpen: false,
 					title: "Add new pin"
@@ -170,3 +192,7 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 		</table>	
 	</body>
 </html>
+
+
+
+<!-- offer test, functionality, how to promote, how to expand, how was inspired, votes -->
