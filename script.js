@@ -9,12 +9,9 @@ $(document).ready(function(){
 	$("#innerContainer").css("width",window.innerWidth.toString()+"px");
 	$("#topBar").css("height","40px");
 	$("#topBar").css("width",window.innerWidth.toString()+"px");
-	$("#mapArea").css("height",(window.innerHeight-40).toString()+"px");
-	$("#mapArea").css("width",window.innerWidth.toString()+"px");
 	$("#topBar td").css("height","40px");
 	$("#topBar td").css("width",window.innerWidth.toString()+"px");
-	$("#mapArea td").css("height",(window.innerHeight-40).toString()+"px");
-	$("#mapArea td").css("width",window.innerWidth.toString()+"px");
+
 	
 	if (navigator.geolocation) {
 		$("#getPos").show();

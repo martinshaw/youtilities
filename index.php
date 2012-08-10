@@ -18,7 +18,7 @@
 
 
 <!DOCTYPE html>
-<html manifest="cache.manifest">
+<html>
 	<head>
 		<title>youtilities</title>
 		<meta name="description" content="An extremely useful map, allowing you access to the location of your most urgently required facilities">
@@ -185,8 +185,11 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 				</td>
 			</tr>
 			<tr id="mapArea">
-				<td>
-					<div id="map" style="width:100%; height:100%"></div>
+				<td id="mapTd">
+					<div id="map" style="height:100%"></div>
+				</td>
+				<td id="paneTd">
+					<div id="pane" style="height:100%"></div>
 				</td>
 			</tr>
 		</table>	

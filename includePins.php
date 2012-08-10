@@ -64,6 +64,34 @@
 		print "map.addMarker({ lat: $lat, lng: $long, title: '$loc', icon: imageden, infoWindow: { content: \"<p id='bubbleTitle'>$loc Electric Car Charging Point</p><p id='bubbleArticle'><sub>$desc</sub></p>\"} });";
 	  }	
 
+	  /* $sql_stmnt = "SELECT location, postcode FROM elec_charging_point_init";
+	  $results = mysql_query($sql_stmnt);
+	  while($row = mysql_fetch_row($results)){
+		list($loc, $pstcd) = $row;
+
+
+		print "Maps.geocode({";
+		print "  address: $pstcd,";
+		print "  callback: function(results, status) {";
+	    print "  if (status == 'OK') {";
+		print "      var latlng = results[0].geometry.location;";
+		print "      map.setCenter(latlng.lat(), latlng.lng());";
+		print "      map.addMarker({";
+		print "        lat: latlng.lat(),";
+		print "        lng: latlng.lng(),";
+		print "        icon: imageden,";
+		print "        infoWindow: { content: \"<p id='bubbleTitle'>$loc Electric Car Charging Point</p><p id='bubbleArticle'><sub>s</sub></p>\"}";
+		print "      });";
+		print "    }";
+		print "  }";
+		print "});";
+
+		}
+		*/
+
+
+
+	  	
 
 
 

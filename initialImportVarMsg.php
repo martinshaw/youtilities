@@ -14,15 +14,14 @@
 	 
 	 
 	$lines = file("evcp.csv");
-	foreach ($lines as $line)
-	{
+	foreach ($lines as $line){
 		$info = explode(",",$line);
 		$location = str_replace("|", ",", $info[0]);
 		echo $location;
 		$postcode= str_replace("|", ",", $info[1]);
 		echo $postcode;
-		mysql_query("INSERT INTO elec_charging_point_init VALUES ('$location', '$postcode');
-	}
+		mysql_query("INSERT INTO elec_charging_point_init VALUES ('$location', '$postcode')");
+		}
 
 
-?>
+ ?>
