@@ -1,44 +1,26 @@
 <?php
+
+echo $_GET["ftype"];
 	
-	
-	$con = mysql_connect("localhost","root","mondriot");
+	$ddd=explode(",", $_get["floc"])[0];
+	$dded=explode(",", $_get["floc"])[1];
+	$ddde=$_GET["ftype"];
+	$dede=$_GET["fname"];
+	$description=$_GET["description"];
+
+
+/*	$con = mysql_connect("localhost","root","mondriot");
 if (!$con)
   {
-  echo 'Could not connect: ' . mysql_error();
-  } 
-  if($con){
-  	
-	
-	
-	mysql_query("CREATE DATABASE map_points",$con);
-	
-	mysql_select_db("map_points", $con);
-	
-	//BUS POINTS
-	mysql_query("CREATE TABLE cycle_parks
-		(
-		id MEDIUMINT NOT NULL AUTO_INCREMENT,
-		location varchar(255),
-		latitude varchar(255),
-		longitude varchar(255),
-		PRIMARY KEY (id)
-		)",$con);
-	 
-	 
-	 
-	$lines = file($_GET["in"]);
-	foreach ($lines as $line)
-	{
-		$info = explode(",",$line);
-		$location = str_replace("\"", "", $info[0]);
-		$longitude = str_replace("\"", "", $info[6]);
-		$latitude = str_replace("\"", "", $info[7]);
-		if($location!=="Location"){
-			mysql_query("INSERT INTO cycle_parks (location, latitude, longitude) VALUES ('".$location."', '".$latitude."','".$longitude."')");
-		}
-	}
+  die('Could not connect: ' . mysql_error());
+  }
 
-  }  
+mysql_select_db("map_points", $con);
+
+mysql_query("INSERT INTO $ddde (location, latitude, longitude,description)
+VALUES ('$dede', '$ddd','$dded','$description')");
+
+mysql_close($con);*/
 ?>
 
 

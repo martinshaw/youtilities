@@ -11,6 +11,7 @@ $(document).ready(function(){
 	$("#topBar").css("width",window.innerWidth.toString()+"px");
 	$("#topBar td").css("height","40px");
 	$("#topBar td").css("width",window.innerWidth.toString()+"px");
+	
 
 	
 	if (navigator.geolocation) {

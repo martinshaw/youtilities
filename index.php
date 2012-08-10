@@ -186,10 +186,7 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 			</tr>
 			<tr id="mapArea">
 				<td id="mapTd">
-					<div id="map" style="height:100%"></div>
-				</td>
-				<td id="paneTd">
-					<div id="pane" style="height:100%"></div>
+					<div id="map" style=" width:100%;height:100%"></div>
 				</td>
 			</tr>
 		</table>	
