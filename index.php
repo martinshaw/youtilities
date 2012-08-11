@@ -1,17 +1,7 @@
 <!-- NOTEs:
 	Routes / Other Type of item / 
 -->
-<?php
-	if(isset($_get["console"])){
-		$console=$_get["console"];
-	}
 
-	if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "android") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "ipad") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "iphone") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "ipod") || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "phone")|| strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "mobile")|| strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "blackberry")){
-		if(isset($_GET["forceDesktop"])){}else{
-			
-		}
-	}
-?>
 
 
 
@@ -47,8 +37,32 @@
 				      div: '#map',
 				      lat: 53.479598999023438,
 				      lng: -2.2488100528717041,  //VIEW OF LONDON
-					zoom: 6
+					zoom: 5
 			      	   });
+
+
+
+			           	map.setContextMenu({
+						  control: 'map',
+						  options: [{
+						    title: 'Add pin here',
+						    name: 'add_marker',
+						    action: function(e) {
+						      this.addMarker({
+						        lat: e.latLng.lat(),
+						        lng: e.latLng.lng(),
+						        title: 'New marker'
+						      });
+						    }
+						  }, {
+						    title: 'Center here',
+						    name: 'center_here',
+						    action: function(e) {
+						      this.setCenter(e.latLng.lat(), e.latLng.lng());
+						    }
+						  }]
+						});
+
 
 
 				if(navigator.geolocation){
@@ -147,6 +161,25 @@ var imagedcurloc = new google.maps.MarkerImage('icons/iconic/blue/fullscreen_exi
 
 									$("#addPinBtn").click(function(){
 										$( "#addPin" ).dialog("open");
+									});
+								</script>
+
+
+
+
+								<button id="remPinBtn">Remove pin</button>
+								<div id="remPin"><?php include("ajax/removePoint.php"); ?></div>
+								<script>
+									$( "#remPin" ).dialog({
+					height: 400,
+					width: 390,
+					modal: true,
+					autoOpen: false,
+					title: "Remove pin"
+									});
+
+									$("#remPinBtn").click(function(){
+										$( "#remPin" ).dialog("open");
 									});
 								</script>
 

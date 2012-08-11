@@ -11,36 +11,12 @@
 	<hr/>
 	<label for="fname">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="text" name="fname" id="fname" size="20"/>
-	<br/>
-	<label for="floc">Location: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-	<input type="text" name="floc" id="floc" size="20"/>
-	&nbsp;
-
-	<script>
-		$("#pointGeoLoc").click(function(){
-			if(navigator.geolocation){
-				   function show_map(position) {
-					var lat = position.coords.latitude;
-					var lng = position.coords.longitude;
-					$("#floc").attr("value",lat.toString()+", "+lng.toString());
-  				   }
-				   navigator.geolocation.getCurrentPosition(show_map);
-			}else{
-				alert("Your browser does not support Location Services!\n\nDownload Google Chrome or Firefox to use Location Services");
-			}
-		});
-	</script>
-
-	<input type="button" id="pointGeoLoc" class="locBtn" textBoxId="from" value="Current position"/>
-	<br/>
-	<label for="desc" style="vertical-align:top;">Description: &nbsp;</label>
-	<textarea id="desc" name="description" cols="30" rows="10"></textarea>
 	<br/><br/><br/><br/><br/>
 
-	<div id="wrgergwe4rg4" style="vertical-align:bottom;"><button id="ssss" onclick="submitData()">Add</button>&nbsp;&nbsp;<button>Cancel</button></div>
+	<div id="wrgergwe4rg4" style="vertical-align:bottom;"><button id="ssss" onclick="submitData()">Remove</button>&nbsp;&nbsp;<button>Cancel</button></div>
 	<script>
 		$("#ssss").click(function(){
-			parent.window.location.href="http://youtiliti.es/projects/YouTilitilies/ajax/processPoint.php?ftype="+$("#ftype").val()+"&fname="+$("#fname").val()+"&floc="+$("#floc").val()+"&description="+$("#desc").val();
+			parent.window.location.href="http://youtiliti.es/projects/YouTilitilies/ajax/processPoint.php?remove=true&ftype="+$("#ftype").val()+"&fname="+$("#fname").val()+"&floc="+$("#floc").val()+"&description="+$("#desc").val();
 		});
 	</script>
 
